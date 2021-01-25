@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "alwaysStrict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "jsx": "preserve",
+      "lib": ["dom", "es2017"],
+      "moduleResolution": "node",
+      "noFallthroughCasesInSwitch": true,
+      "declaration": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "outDir": "lib"
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+}
